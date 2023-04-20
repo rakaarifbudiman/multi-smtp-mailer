@@ -1,6 +1,6 @@
 <?php
 
-namespace Providers\Govelid\MultiSmtpMailer;
+namespace Govelid\MultiSmtpMailer;
 
 use Govelid\MultiSmtpMailer\MailSetting;
 use Config;

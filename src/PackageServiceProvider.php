@@ -5,7 +5,7 @@ namespace Govelid\MultiSmtpMailer;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Artisan;
 
-class MailConfigServiceProvider extends ServiceProvider
+class PackageServiceProvider extends ServiceProvider
 {
     /**
      * Register services.
