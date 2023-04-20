@@ -16,10 +16,7 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "illuminate/support": "^10.8",
-        "illuminate/config": "^10.8",
-        "illuminate/database": "^10.8"
-    },
+        },
     "extra": {
         "laravel": {
             "providers": [
