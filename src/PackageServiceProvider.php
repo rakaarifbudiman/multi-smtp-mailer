@@ -30,6 +30,6 @@ class PackageServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'/database/migrations/' => database_path('migrations')
         ], 'migrations');
-        \Artisan::call('migrate');        
+        \Artisan::call('migrate --path=/database/migrations/create_mail_settings_table.php');        
     }
 }
