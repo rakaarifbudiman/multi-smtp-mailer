@@ -13,7 +13,8 @@
 }</code>
 </li>
 <li>4. Run composer dump-autoload</li>
-  <li>5. Manually make migration , copy code from vendor\govelid\multi-smtp-mailer\src\create_mail_settings_table.php</li>
+  <li>5. Publish the migration file : <br>
+  php artisan vendor:publish --provider="Govelid\MultiSmtpMailer\MailConfigServiceProvider"</li>
   <li>6. Run php artisan migrate</li>
   <li>7. Create new data mailer at mail_settings table , for first mail default mailer is 'smtp' , the next mailer you can give custom name</li>
   <li>8. Tes your mail</li>  

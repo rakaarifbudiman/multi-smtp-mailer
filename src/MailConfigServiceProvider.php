@@ -28,6 +28,10 @@ class MailConfigServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
+        $this->publishes([
+            __DIR__.'/create_mail_settings_table.php' => database_path('migrations')
+        ], 'migrations');
+        
         $emailServices = MailSetting::where('active', 1)->get();
 
         foreach($emailServices as $services)
