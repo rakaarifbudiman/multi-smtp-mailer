@@ -3,7 +3,7 @@
         'name' => 'govelid/multi-smtp-mailer',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '70a797fba6638a7b17ce00a032868f993e980f4b',
+        'reference' => 'ba8bd54829a6d4e58f4b4e61a068605bbd1f865b',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'govelid/multi-smtp-mailer' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '70a797fba6638a7b17ce00a032868f993e980f4b',
+            'reference' => 'ba8bd54829a6d4e58f4b4e61a068605bbd1f865b',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
