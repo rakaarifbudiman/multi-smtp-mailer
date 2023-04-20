@@ -2,7 +2,7 @@
 
 namespace Govelid\MultiSmtpMailer;
 
-use Govelid\MultiSmtpMailer\MailSetting;
+use App\Models\MailSetting;
 use Config;
 use Illuminate\Support\ServiceProvider;
 

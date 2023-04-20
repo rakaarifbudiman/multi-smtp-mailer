@@ -22,7 +22,13 @@
         "laravel": {
             "providers": [
                 "Govelid\\MultiSmtpMailer\\MailConfigServiceProvider"
-            ]
+            ],
+            "installer": {
+                "class": "Govelid\\MultiSmtpMailer\\Installer",
+                "hooks": {
+                    "post-package-install": "@php -r \"(new Govelid\\MultiSmtpMailer\\Installer())->install();\""
+                }
+            }
         }
     }
 }
