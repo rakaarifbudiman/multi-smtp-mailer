@@ -2,7 +2,7 @@
 <p> composer require govelid/multi-smtp-mailer</p>
 <p>This package allow you set multiple smtp mailer dynamically from database</p>
 
-# Installation
+<h4>Installation</h4>
 <ul>
   <li>1. You need setup your database </li>  
   <li>2. Run composer require govelid/multi-smtp-mailer </li>
