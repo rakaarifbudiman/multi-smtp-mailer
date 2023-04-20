@@ -20,8 +20,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Govelid\\MultiSmtpMailer\\PackageServiceProvider",
-                "Govelid\\MultiSmtpMailer\\Providers\\MailConfigServiceProvider"
+                "Govelid\\MultiSmtpMailer\\PackageServiceProvider"
             ],
             "aliases": {
                 "MailSetting": "Govelid\\MultiSmtpMailer\\MailSetting"
