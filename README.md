@@ -1,6 +1,7 @@
 # multi-smtp-mailer
 <p> composer require govelid/multi-smtp-mailer</p>
 <p>This package allow you set multiple smtp mailer dynamically from database</p>
+# Installation
 <ul>
   <li>1. You need setup your database </li>  
   <li>2. Run composer require govelid/multi-smtp-mailer </li>
@@ -10,7 +11,7 @@
   <li>6. Tes your mail</li>  
 </ul>
 
-How to use mail
+# How to use mail
 <ul>
   <li>Default mailer : Mail::to($recipient)->send(new Mail)</li>    
   <li>Custom mailer : Mail::mailer('custommailer)->to($recipient)->send(new Mail)</li>    
