@@ -1,0 +1,26 @@
+{
+    "name": "govelid/multi-smtp-mailer",
+    "description": "Multi SMTP Mailer - Use for set multiple smtp mailer dynamically for your laravel web",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Govelid\\MultiSmtpMailer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "rakaarif",
+            "email": "rakha.junior@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Govelid\\MultiSmtpMailer\\MailConfigServiceProvider"
+            ]
+        }
+    }
+}
