@@ -22,6 +22,10 @@
             "providers": [
                 "Govelid\\MultiSmtpMailer\\MailConfigServiceProvider"
             ],
+            "aliases": {
+                "MailSetting": "Govelid\\MultiSmtpMailer\\MailSetting"
+            },
+            "dont-discover": [],
             "installer": {
                 "class": "Govelid\\MultiSmtpMailer\\Installer",
                 "hooks": {
