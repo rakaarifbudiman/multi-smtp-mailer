@@ -25,6 +25,7 @@ class MailConfigServiceProvider extends ServiceProvider
 
         foreach($emailServices as $services)
         {
+            $config =[];
             $config [$services->mailer]= [
                 'transport' => 'smtp',
                 'host' => $services->host,
