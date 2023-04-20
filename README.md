@@ -26,3 +26,9 @@
   <li>Custom mailer : Mail::mailer('custommailer)->to($recipient)->send(new Mail)</li>    
 </ul>
 
+# How to use MailSetting Model
+<ul>
+  <li>Use as is Laravel Eloquent Model , example display all data form table mail_settings: <code>MailSetting::all();</code></li>    
+  <li>Dont forget to add <code>use Govelid\MultiSmtpMailer\MailSetting;</code></li>    
+</ul>
+
